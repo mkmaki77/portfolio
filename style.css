@@ -50,7 +50,7 @@ box-sizing: borderbox}
 
 /*-----------開始我的語法------------*/
 
-/*{outline: 1px dotted gray}
+/*{outline: 1px dotted rgba(128, 128, 128, 0.199)}
 
 /*-----------以上是參考線區域------------*/
 
@@ -131,5 +131,91 @@ body{
     height: 50px;
     bottom: 0;
     margin: 0 auto;
+}
+
+/*-----------about content------------*/
+
+.content{
+    padding: auto 10px;
+}
+
+.s1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 200px;
+    padding-left: 155px;
+}
+
+.text{
+    color: #b292be;
+    letter-spacing: 3px;
 
 }
+
+.text h1{
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.text h2{
+    font-size: 20px;
+}
+
+
+.s2{
+    padding: 50px 100px;
+    margin-top: 30px;
+}
+
+.s2 table{
+    margin: 0 auto;
+    
+}
+
+.s2 td{
+    width: 150px;
+    padding-left: 60px;
+    padding-bottom: 60px;
+}
+
+
+/*-----------contant content------------*/
+
+.content h1{
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 30px;
+    color: #b292be;
+    margin: 100px;
+    margin-top: 200px;
+}
+
+.content ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 70px;
+    color: #b292be;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.content ul li p{
+    margin-top: 10px;
+}
+
+.content img{
+    border: 8px solid #f1f1f100;
+    border-radius: 500px;
+    outline: 2px solid rgba(255, 255, 255, 0);
+    transition: all 0.5s;
+}
+
+
+.content img:hover{
+    border: 8px solid #f1f1f1;
+    border-radius: 500px;
+    outline: 2px solid rgb(255, 255, 255);
+    box-shadow: 0 10px 10px #e5c3ef83
+}
+
