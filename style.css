@@ -1,0 +1,135 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+*,*:before,*after{
+box-sizing: borderbox}
+
+/*-----------開始我的語法------------*/
+
+/*{outline: 1px dotted gray}
+
+/*-----------以上是參考線區域------------*/
+
+@font-face {
+    font-family: 'jf-lanyangming';
+    src: url(jf-lanyangming.woff) format('woff');
+}
+
+body{
+    background: #f1f1f1;
+    font-family: jf-lanyangming;
+}
+
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/*-----------header------------*/
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.header ul{
+    display: flex;
+}
+
+.header li{
+    width: 175px;
+    height: 70px;
+    border: 2px solid rgba(255, 255, 255, 0.849);
+    border-radius: 15px;
+    margin-left: 15px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.header li a{
+    display: block;
+    text-decoration: none;
+    color: #b292be;
+}
+
+.about, .portfolio, .contact{
+    box-shadow: 0;
+    transition: all 0.5s;
+}
+
+.about:hover{
+    box-shadow: 0 8px 10px #a8e1f38f;
+}
+
+.portfolio:hover{
+    box-shadow: 0 8px 10px #e5c3ef83;
+}
+
+.contact:hover{
+    box-shadow: 0 8px 10px #efdd9579;
+}
+
+/*-----------footer------------*/
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    color: #b292be;
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: 3px;
+    height: 50px;
+    bottom: 0;
+    margin: 0 auto;
+
+}
