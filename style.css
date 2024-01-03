@@ -50,7 +50,7 @@ box-sizing: borderbox}
 
 /*-----------開始我的語法------------*/
 
-/*{outline: 1px dotted rgba(128, 128, 128, 0.199)}
+*{outline: 1px dotted rgba(128, 128, 128, 0.199)}
 
 /*-----------以上是參考線區域------------*/
 
@@ -62,11 +62,14 @@ box-sizing: borderbox}
 body{
     background: #f1f1f1;
     font-family: jf-lanyangming;
+    
 }
 
 .wrap{
     width: 1200px;
     margin: 0 auto;
+    position: relative;
+
 }
 
 /*-----------header------------*/
@@ -147,12 +150,19 @@ body{
 
 }
 
+.wrap img{
+    z-index: 1;
+    margin: auto;
+    display: block;
+
+}
+
 .main h1{
     display: block;
     margin: auto;
     z-index: 2;
-    left: 47%;
-    top: 52%;
+    left: 45%;
+    top: 62%;
     position: absolute;
     color: #d0afdd;
     letter-spacing: 5px;
@@ -161,22 +171,17 @@ body{
 
 .main h2{
     z-index: 2;
-    left: 29%;
-    top: 50%;
+    display: block;
+    left: 18%;
+    top: 60%;
     position: absolute;
+    display: block;
     color: #d0afdd;
     letter-spacing: 20px;
     font-size: 70px;
     font-style: italic;
-    text-align: center;
 }
 
-
-.main img{
-    z-index: 1;
-    position: relative;
-
-}
 
 
 
