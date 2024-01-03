@@ -77,6 +77,10 @@ body{
     padding: 15px;
 }
 
+.header img{
+    padding-top: 15px;
+}
+
 .header ul{
     display: flex;
 }
@@ -132,6 +136,51 @@ body{
     bottom: 0;
     margin: 0 auto;
 }
+
+/*-----------首頁------------*/
+
+
+
+.main{
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.main h1{
+    display: block;
+    margin: auto;
+    z-index: 2;
+    left: 47%;
+    top: 52%;
+    position: absolute;
+    color: #d0afdd;
+    letter-spacing: 5px;
+    font-size: 40px;
+}
+
+.main h2{
+    z-index: 2;
+    left: 34%;
+    top: 50%;
+    position: absolute;
+    color: #d0afdd;
+    letter-spacing: 20px;
+    font-size: 70px;
+    font-style: italic;
+    text-align: center;
+}
+
+
+.main img{
+    z-index: 1;
+    position: relative;
+
+}
+
+
+
+
 
 /*-----------about content------------*/
 
