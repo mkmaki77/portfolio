@@ -62,7 +62,7 @@ box-sizing: borderbox}
 body{
     background: #f1f1f1;
     font-family: jf-lanyangming;
-    
+
 }
 
 .wrap{
@@ -126,18 +126,15 @@ body{
 /*-----------footer------------*/
 
 .footer{
-    position: absolute;
-    bottom: 0;
+    float: bottom;
     left: 0;
     right: 0;
     background: #ffffff;
     color: #b292be;
     text-align: center;
+    letter-spacing: 3px;   
     line-height: 50px;
-    letter-spacing: 3px;
     height: 50px;
-    bottom: 0;
-    margin: 0 auto;
 }
 
 /*-----------首頁------------*/
